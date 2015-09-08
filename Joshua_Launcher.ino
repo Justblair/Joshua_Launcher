@@ -349,7 +349,7 @@ bool continuityCheck(bool ledCheck){
 		statusLedsOff();
 	}
 
-	if (continuityVal > 0 && continuityVal < 20 || testMode == true){
+	if (continuityVal > 0 && continuityVal < 100 || testMode == true){
 		return true;
 	} else {
 		return false;
